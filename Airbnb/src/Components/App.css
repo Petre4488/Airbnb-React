@@ -5,3 +5,66 @@
 body {
   margin: 0;
 }
+
+.App{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.grid{
+  display: grid;
+  grid-template-rows: 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh;
+  grid-template-columns: 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh;
+  grid-gap: 1vh;
+}
+
+.grid >img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.img1{
+  grid-area: 8 / 1 / 4 / 3;
+}
+
+.img2 {
+  grid-area: 5 / 3 / 9 / 5;
+}
+
+.img3{
+  grid-area: 2 / 3 / 5 / 5;
+}
+
+.img4{
+  grid-area: 3 / 5 / 7 / 7 ;
+}
+
+.img5{
+  grid-area: 7 / 7 / 10 / 5;
+}
+
+.img6{
+  grid-area: 2 / 9 /  6 / 7;
+}
+
+.img7{
+  grid-area: 6 / 7 / 9 / 9;
+}
+
+.img8{
+  grid-area: 3 / 9 / 7 / 11;
+}
+
+.img9{
+  grid-area: 7 / 9 / 10 / 11;
+}
+
+.App >h1{
+  position: relative;
+}
+
+.App >p{
+  position: relative
+}
